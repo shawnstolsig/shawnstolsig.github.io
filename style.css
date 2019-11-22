@@ -21,7 +21,7 @@ body:after{
         left:0;
         right:0;
         z-index:-1; /* needed to keep in the background */
-        background: url(imagename.jpg) center center;
+        background: url(images/bg_cropped1.9_resized_milkyway.jpg) center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -44,8 +44,11 @@ nav, main {
 } */
 
 /* JS nav bar  */
-nav {
+#navbar {
+    display: flex;
+    margin-top: 40vh;
     overflow: hidden;
+    justify-content: center;
 }
 .sticky {
     position: fixed;
