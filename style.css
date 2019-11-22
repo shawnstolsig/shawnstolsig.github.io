@@ -1,3 +1,46 @@
-body {
-    background-color: darkred;
+/* font-family: 'Montserrat', sans-serif;        header  */
+
+
+html {
+    /* Adjust box sizing to border*/
+    box-sizing: border-box;
+
+    /* Background image */
+    background: url(images/bg_cropped1.9_resized_milkyway.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* Scroll behavior (for floating nav bar) */
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+nav, main {
+    color: #FFFFFF;
+}
+
+/* nav bar: flexbox that starts in middle of the screen and stickies at top */
+nav {
+    margin-top: 50vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.5)
+}
+
+/* apply top margin to everything that comes immediatedly after the header */
+main {
+    margin-top: 40px;
+}
+
+h1 {
+    color: #FFFFFF;
+    display: inline;
+    font-family: 'Quicksand', sans-serif;
 }
