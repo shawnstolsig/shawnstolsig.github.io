@@ -21,42 +21,25 @@ body:after{
         left:0;
         right:0;
         z-index:-1; /* needed to keep in the background */
-        background: url(images/bg_cropped1.9_resized_milkyway.jpg) center center;
+        background: url(img/bg_cropped1.9_resized_milkyway.jpg) center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
 }
 
-
 nav, main {
     color: #FFFFFF;
 }
 
 /* nav bar: flexbox that starts in middle of the screen and stickies at top */
-/* nav {
-    margin-top: 50vh;
+nav {
+    margin-top: 40vh;
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     position: sticky;
     top: 0;
-} */
-
-/* JS nav bar  */
-#navbar {
-    display: flex;
-    margin-top: 40vh;
-    overflow: hidden;
-    justify-content: center;
-}
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.sticky + .content {
-    padding-top: 60px;
 }
 
 h3 {
