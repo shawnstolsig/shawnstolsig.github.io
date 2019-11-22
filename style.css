@@ -5,13 +5,6 @@ html {
     /* Adjust box sizing to border*/
     box-sizing: border-box;
 
-    /* Background image */
-    background: url(images/bg_cropped1.9_resized_milkyway.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     /* Scroll behavior (for floating nav bar) */
     scroll-behavior: smooth;
 }
@@ -19,27 +12,51 @@ html {
     box-sizing: inherit;
 }
 
+/* background image */
+body:after{
+        content:"";
+        position:fixed; /* stretch a fixed position to the whole screen */
+        top:0;
+        height:100vh; /* fix for mobile browser address bar appearing disappearing */
+        left:0;
+        right:0;
+        z-index:-1; /* needed to keep in the background */
+        background: url(imagename.jpg) center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
 nav, main {
     color: #FFFFFF;
 }
 
 /* nav bar: flexbox that starts in middle of the screen and stickies at top */
-nav {
+/* nav {
     margin-top: 50vh;
     display: flex;
     justify-content: center;
     align-self: center;
     position: sticky;
     top: 0;
-    background: rgba(0,0,0,0.5)
+} */
+
+/* JS nav bar  */
+nav {
+    overflow: hidden;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
 }
 
-/* apply top margin to everything that comes immediatedly after the header */
-main {
-    margin-top: 40px;
-}
-
-h1 {
+h3 {
     color: #FFFFFF;
     display: inline;
     font-family: 'Quicksand', sans-serif;
