@@ -32,18 +32,62 @@ nav, main {
     color: #FFFFFF;
 }
 
+.fab.fa-github-square.fa-3x {
+    color: #FFFFFF;
+}
+
+.fab.fa-linkedin.fa-3x {
+    color: #FFFFFF;
+}
+
+.fas.fa-paw.fa-3x {
+    color: #FFFFFF;
+}
+
 /* nav bar: flexbox that starts in middle of the screen and stickies at top */
 nav {
     margin-top: 40vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
+}
+
+nav {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+nav div {
+    align-items: right;
+    padding-right: 6px;
 }
 
 h3 {
     color: #FFFFFF;
     display: inline;
     font-family: 'Quicksand', sans-serif;
+}
+
+/* TEMPORARY: */
+p {
+    text-align: center;
+    line-height: 0.5em;
+}
+main div {
+    display: flex;
+    justify-content: center;;
+}
+
+@media (min-width: 640px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 960px) {
+    
 }
