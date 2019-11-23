@@ -59,11 +59,6 @@ nav {
     margin-right: 12px;
 }
 
-nav div {
-    align-items: right;
-    padding-right: 6px;
-}
-
 h3 {
     color: #FFFFFF;
     display: inline;
@@ -75,9 +70,10 @@ p {
     text-align: center;
     line-height: 0.5em;
 }
+
 main div {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
 }
 
 @media (min-width: 640px) {
