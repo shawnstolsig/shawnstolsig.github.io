@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb1fe627620f0f2a446b5036e7e2cf5b",
+    "revision": "304065fc222a4a65a42fbfa05563866a",
     "url": "/index.html"
   },
   {
-    "revision": "4e257a3266ff63a7933f",
+    "revision": "c7ecfa5ec4154a20bc2d",
     "url": "/static/css/2.e3e68e7e.chunk.css"
   },
   {
-    "revision": "4e257a3266ff63a7933f",
-    "url": "/static/js/2.504c33d6.chunk.js"
+    "revision": "c7ecfa5ec4154a20bc2d",
+    "url": "/static/js/2.0dbf4dd3.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.504c33d6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0dbf4dd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a2cbabe48b246dda49e",
-    "url": "/static/js/main.b995ce85.chunk.js"
+    "revision": "59be6db8c56933b13df2",
+    "url": "/static/js/main.f9a7ec0c.chunk.js"
   },
   {
     "revision": "618364a53ab08b891181",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24909f379142b5722a85bb88e62c4e50",
     "url": "/static/media/portfolio.24909f37.png"
+  },
+  {
+    "revision": "2889de81ea043fb9e976e357a4b48934",
+    "url": "/static/media/pyChallenges.2889de81.png"
   },
   {
     "revision": "25b4f8b1bcc56b4ddfb4a8fd2ef18291",
