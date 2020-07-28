@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "304065fc222a4a65a42fbfa05563866a",
+    "revision": "868786b8a036472f1cac8a2ff5d5fc5c",
     "url": "/index.html"
   },
   {
-    "revision": "c7ecfa5ec4154a20bc2d",
+    "revision": "bcbe40edff3089c80631",
     "url": "/static/css/2.e3e68e7e.chunk.css"
   },
   {
-    "revision": "c7ecfa5ec4154a20bc2d",
-    "url": "/static/js/2.0dbf4dd3.chunk.js"
+    "revision": "bcbe40edff3089c80631",
+    "url": "/static/js/2.b2ae41e6.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.0dbf4dd3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b2ae41e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59be6db8c56933b13df2",
-    "url": "/static/js/main.f9a7ec0c.chunk.js"
+    "revision": "af0aea58afcc52d8869b",
+    "url": "/static/js/main.cc589e61.chunk.js"
   },
   {
-    "revision": "618364a53ab08b891181",
-    "url": "/static/js/runtime-main.32eef540.js"
+    "revision": "56bde5049fb792944803",
+    "url": "/static/js/runtime-main.13045210.js"
   },
   {
     "revision": "7ff33eadc1fd8229900c142841c826c9",
@@ -56,8 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pyChallenges.2889de81.png"
   },
   {
-    "revision": "25b4f8b1bcc56b4ddfb4a8fd2ef18291",
-    "url": "/static/media/resume.25b4f8b1.pdf"
+    "revision": "b6118fe73c1b225a972ff81a658fd77c",
+    "url": "/static/media/pyChallenges.b6118fe7.mp4"
+  },
+  {
+    "revision": "36c78370a519d0301e2933c0f574ef0e",
+    "url": "/static/media/resume.36c78370.pdf"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
